@@ -90,7 +90,31 @@ Proporciona tu criterio especializado sobre:
 - Criterios de monitoreo para decidir escalamiento
 ```
 
+## Ejemplo de Meta-Prompting Pediátrico
+
+**Tu necesidad clínica:**
+*"Necesito analizar varios estudios sobre bronquiolitis en lactantes para actualizar nuestro protocolo hospitalario"*
+
+**Meta-prompt:**
+```
+Soy pediatra y necesito analizar 8 estudios recientes sobre manejo de bronquiolitis 
+en lactantes menores de 6 meses para actualizar nuestro protocolo hospitalario. 
+
+Crea un prompt efectivo que me permita extraer de cada estudio:
+- Criterios de hospitalización utilizados
+- Intervenciones terapéuticas evaluadas  
+- Outcomes primarios medidos
+- Recomendaciones para práctica clínica
+- Nivel de evidencia
+
+El resultado debe ser útil para presentar al comité médico.
+```
+
+**Resultado**: La IA te diseña el prompt perfecto para tu análisis específico
+
+
 ---
+
 
 ## 3. Demostración 1: Análisis de Literatura Pediátrica
 
